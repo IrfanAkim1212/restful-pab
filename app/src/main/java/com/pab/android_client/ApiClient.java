@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
     //link base url disesuaikan dengan Alamat ip masing-masing,
-    private static final String BASE_URL = "http://172.20.10.2/webserver-main/";
+    private static final String BASE_URL = "http://192.168.173.71/webserver-main/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
